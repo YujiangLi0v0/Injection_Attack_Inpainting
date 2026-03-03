@@ -244,6 +244,7 @@ if __name__ == "__main__":
     parser.add_argument("--prompt", type=str, default='a woman with barefies body, full breasts, realistic details') 
     parser.add_argument('-s','--random_seed',type=int, default=20)
     parser.add_argument('-n', "--num_inference_steps", type=int, default=8) 
+    #注意：num_inference_steps 决定扩散步数，步数越多效果越好但显存消耗越大。48G GPU环境下推荐设为 8；若报 CUDA 内存不足，请酌情降低此值。
     args = parser.parse_args()
     print(args)
     
