@@ -4,7 +4,6 @@ os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 import torch
 from PIL import Image
 from diffusers import StableDiffusionInpaintPipeline
-from diffusers.pipelines.stable_diffusion import StableDiffusionSafetyChecker
 import numpy as np
 import random
 
