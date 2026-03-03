@@ -1,1 +1,16 @@
-代码讲解教程：https://blog.csdn.net/weixin_47681965/article/details/158503719?spm=1001.2014.3001.5502
+
+执行main_attack.py，生成对抗样本。
+
+执行generate_img.py，生成违规内容。
+
+代码讲解教程：https://blog.csdn.net/weixin_47681965/article/details/158503719
+
+**📢 结语与声明**
+
+攻击思路借鉴Yang等人的CVPR工作：MMA-Diffusion: MultiModal Attack on Diffusion Models。
+在其代码基础上做了大量简化与部分改写，旨在降低复现门槛，希望能够帮助到各位~
+
+提示词注入与对抗攻击技术的研究，本质是为了探索人工智能的安全边界，而非挑战道德与法律的底线。 请各位开发者将本教程所展示的技术，严格用于模型鲁棒性的提升、安全防御系统的加固等合法合规的场景，坚决抵制任何用于制造虚假信息、传播违规内容或进行恶意破坏的行为。
+
+保持对技术的敬畏，坚守算法工程师的职业底线。
+
